@@ -2,9 +2,9 @@ import math
 import matplotlib.pyplot as plt
 
 x = 1000
-a = 9429
+a = 24693
 c = 3967
-K = 2**14
+K = 2**15
 x_list = []
 u_list = []
 time_list = []
@@ -100,4 +100,3 @@ plt.plot(time_list, p_list)
 print(time_list)
 print(max(time_list))
 plt.show()
-
